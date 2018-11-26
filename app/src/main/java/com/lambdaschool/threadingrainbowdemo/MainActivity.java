@@ -118,8 +118,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onProgressUpdate(Integer... values) {
-            textView.setText(values[0].toString());
             super.onProgressUpdate(values);
+            textView.setText(values[0].toString());
         }
     }
 
